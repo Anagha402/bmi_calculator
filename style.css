@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* body */
+body{
+    background-image: url(./images/fruits.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* main bmi column */
+#hero{
+    border-radius: 20px;
+    height: 670px;
+    box-shadow: 0px 0px 20px 20px  rgb(204, 50, 101);
+    background-color: pink; 
+    /* opacity: 0.9; */
+
+
+    
+
+}
+/* age */
+.age{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+input{
+    outline: none;
+    border: none;
+    border-bottom:2px solid rgb(131, 8, 49);
+}
+/* gender */
+.gender{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+/* height and weight */
+.main{
+    background-color: white;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+.sub{
+    /* background-color: red; */
+    height: 70px;
+    width: 210px;
+    margin: 5px;
+    
+}
+/*calculate  button */
+#calc{
+    height:40px;
+    width:100%;
+    border:none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(233, 11, 85);
+    color: white;
+    font-weight: 500;
+    font-size: large;
+
+}
+
+
+
+
+
+
+/* health status */
+.para{
+    background-color: white;
+    height:65px ;
+    width: 165px;
+    margin-left: 170px; 
+    padding: 3px;
+    border-radius: 10px;
+}
+
+/* SCALE */
+.scale{
+    display:flex;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+    height: 50px;
+    
+}
+.number{
+    flex:1;
+    /*flex:1 is a short hand of flex grow property which  let all the flexible items be the same length, regardless of its content: */
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* background-color: chartreuse; */
+}
+.number h6{
+    font-size: small;
+    font-weight: 800;
+}
+.number p{
+    font-size: small;
+    font-weight: 500;
+}
