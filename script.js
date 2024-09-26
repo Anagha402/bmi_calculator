@@ -22,9 +22,9 @@ function calcBmi(){
    var answer="";
    if(bmi<18.5){
     answer="UNDERWEIGHT"
-   }else if(18.5<=bmi&&bmi<=24.9){
+   }else if(18.5<=bmi&&bmi<25){
     answer="HEALTHY"
-   }else if(25<=bmi&&bmi<=29.9){
+   }else if(25<=bmi&&bmi<30){
     answer="OVERWEIGHT"
    }else if(bmi>=30){
     answer="OBESE"
