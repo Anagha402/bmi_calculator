@@ -30,9 +30,9 @@
             <!-- heading -->
             <h1 style="text-align: center;margin-top: 20px;font-weight: 800;color: rgb(80, 3, 29);">BMI Calculator</h1>
             <!-- age -->
-              <div class="age">
+             <div class="age">
                 <h2 style="font-size: large;font-weight: 700;text-align: center;"><label for="tx">Age</label></h2>
-                <input id="tx" type="number"min="0"step="1"placeholder="Enter age"style="margin-left:120px;">
+                <input id="tx" type="number"min="0"step="1"placeholder="Enter your age"style="margin-left:120px;">
             
             </div>
             <br>
@@ -49,16 +49,16 @@
             <div class="main">
                 <div class="sub sub1">
                     <h5 style="font-size: large;font-weight: 700;text-align: center;"><label for="hgt">Height(cm)</label></h5>
-                    <input type="number"id="hgt"min="0"step="0.01">
+                    <input type="number"id="hgt"min="0"step="0.01"placeholder="Enter your height">
                 </div>
                 <div class="sub sub2">
                     <h5 style="font-size: large;font-weight: 700;text-align: center;"><label for="wgt">Weight(kg)</label></h5>
-                    <input type="number"id="wgt"min="0"step="0.01">
+                    <input type="number"id="wgt"min="0"step="0.01"placeholder="Enter your weight">
                 </div>
             </div><br>
             <!-- calculate bmi and reset button -->
              <button onclick="calculate()" id="calc">Calculate BMI</button>
-             
+             <button id="rst" onclick="valuesReset()">Reset</button>
             <br>
              <br>
 
@@ -66,7 +66,7 @@
              <h3 style="font-size: x-large;font-weight: 700;text-align: center;">Your BMI is</h3>
               <div class="para">
                 
-                <p id="result"style="font-size:40px;font-weight: 700;text-align: center;">00.00</p>
+                <p id="result"style="font-size:40px;font-weight: 700;text-align: center;display:block;">00.00</p>
 
               </div><br>
               <p id="comment"></p>
@@ -91,7 +91,7 @@
             </div>
             
           </div>
-
+        
 
 
           </div>

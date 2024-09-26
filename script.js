@@ -53,4 +53,15 @@ function calcBmi(){
 
 }
 
+//reset
+function valuesReset(){
+    tx.value=''
+    hgt.value=''
+    wgt.value=''
+    result.innerHTML=`<p style="font-size:40px;font-weight: 700;text-align: center;display:block;color:black;">00.00</p>`
+    ml.checked=false
+    fl.checked=false
+    
+}
+
 
