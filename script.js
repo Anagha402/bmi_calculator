@@ -62,6 +62,8 @@ function valuesReset(){
     ml.checked=false
     fl.checked=false
     
+    const x=document.getElementById("comment");
+    x.innerHTML=`<p> </p>`
 }
 
 
