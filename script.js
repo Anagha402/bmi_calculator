@@ -31,10 +31,10 @@ function calcBmi(){
    }
    //display number
    const displayNumber=document.getElementById("result");
-   displayNumber.innerHTML=`<h1 style="padding:5px;">${bmi.toFixed(2)}</h1>`;
+   displayNumber.innerHTML=`<h1 style="padding:5px;font-size:40px;font-weight: 700;text-align: center;">${bmi.toFixed(2)}</h1>`;
 
    if(answer=="UNDERWEIGHT"){
-    displayNumber.style.color="lightgreen"
+    displayNumber.style.color="rgb(14, 163, 232)"
 
    }else if(answer=="HEALTHY"){
     displayNumber.style.color="darkgreen"
